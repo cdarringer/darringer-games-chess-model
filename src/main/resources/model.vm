@@ -1,0 +1,29 @@
+
+    A   B   C   D   E   F   G   H
+  +---+---+---+---+---+---+---+---+
+8 | $model.getPieceAtIndex(0,7).getCode() | $model.getPieceAtIndex(1,7).getCode() | $model.getPieceAtIndex(2,7).getCode() | $model.getPieceAtIndex(3,7).getCode() | $model.getPieceAtIndex(4,7).getCode() | $model.getPieceAtIndex(5,7).getCode() | $model.getPieceAtIndex(6,7).getCode() | $model.getPieceAtIndex(7,7).getCode() | 8
+  +---+---+---+---+---+---+---+---+
+7 | $model.getPieceAtIndex(0,6).getCode() | $model.getPieceAtIndex(1,6).getCode() | $model.getPieceAtIndex(2,6).getCode() | $model.getPieceAtIndex(3,6).getCode() | $model.getPieceAtIndex(4,6).getCode() | $model.getPieceAtIndex(5,6).getCode() | $model.getPieceAtIndex(6,6).getCode() | $model.getPieceAtIndex(7,6).getCode() | 7
+  +---+---+---+---+---+---+---+---+
+6 | $model.getPieceAtIndex(0,5).getCode() | $model.getPieceAtIndex(1,5).getCode() | $model.getPieceAtIndex(2,5).getCode() | $model.getPieceAtIndex(3,5).getCode() | $model.getPieceAtIndex(4,5).getCode() | $model.getPieceAtIndex(5,5).getCode() | $model.getPieceAtIndex(6,5).getCode() | $model.getPieceAtIndex(7,5).getCode() | 6
+  +---+---+---+---+---+---+---+---+
+5 | $model.getPieceAtIndex(0,4).getCode() | $model.getPieceAtIndex(1,4).getCode() | $model.getPieceAtIndex(2,4).getCode() | $model.getPieceAtIndex(3,4).getCode() | $model.getPieceAtIndex(4,4).getCode() | $model.getPieceAtIndex(5,4).getCode() | $model.getPieceAtIndex(6,4).getCode() | $model.getPieceAtIndex(7,4).getCode() | 5
+  +---+---+---+---+---+---+---+---+
+4 | $model.getPieceAtIndex(0,3).getCode() | $model.getPieceAtIndex(1,3).getCode() | $model.getPieceAtIndex(2,3).getCode() | $model.getPieceAtIndex(3,3).getCode() | $model.getPieceAtIndex(4,3).getCode() | $model.getPieceAtIndex(5,3).getCode() | $model.getPieceAtIndex(6,3).getCode() | $model.getPieceAtIndex(7,3).getCode() | 4
+  +---+---+---+---+---+---+---+---+
+3 | $model.getPieceAtIndex(0,2).getCode() | $model.getPieceAtIndex(1,2).getCode() | $model.getPieceAtIndex(2,2).getCode() | $model.getPieceAtIndex(3,2).getCode() | $model.getPieceAtIndex(4,2).getCode() | $model.getPieceAtIndex(5,2).getCode() | $model.getPieceAtIndex(6,2).getCode() | $model.getPieceAtIndex(7,2).getCode() | 3
+  +---+---+---+---+---+---+---+---+
+2 | $model.getPieceAtIndex(0,1).getCode() | $model.getPieceAtIndex(1,1).getCode() | $model.getPieceAtIndex(2,1).getCode() | $model.getPieceAtIndex(3,1).getCode() | $model.getPieceAtIndex(4,1).getCode() | $model.getPieceAtIndex(5,1).getCode() | $model.getPieceAtIndex(6,1).getCode() | $model.getPieceAtIndex(7,1).getCode() | 2 
+  +---+---+---+---+---+---+---+---+
+1 | $model.getPieceAtIndex(0,0).getCode() | $model.getPieceAtIndex(1,0).getCode() | $model.getPieceAtIndex(2,0).getCode() | $model.getPieceAtIndex(3,0).getCode() | $model.getPieceAtIndex(4,0).getCode() | $model.getPieceAtIndex(5,0).getCode() | $model.getPieceAtIndex(6,0).getCode() | $model.getPieceAtIndex(7,0).getCode() | 1
+  +---+---+---+---+---+---+---+---+
+    A   B   C   D   E   F   G   H
+
+ Active Player:  ${model.activeColor}
+ EnPassant Target:  ${model.enPassant}
+ Halfmove Clock:  ${model.halfmoveClock}
+ Fullmove Number:  ${model.fullmoveNumber}
+ Castling Availability:  ${model.castlingAvailability}
+ Score: ${model.score}
+ State: ${model.state}
+  
